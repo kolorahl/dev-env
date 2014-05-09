@@ -3,5 +3,5 @@
 # ssh-agent should be running in the background
 alias sshagent="eval \`ssh-agent\`"
 
-# attempt to load necessary identities
-alias loadssh="ssh-add ~/.ssh/github ~/.ssh/bitbucket"
+# reloads all SSH identities
+alias loadssh"ssh-add -D && ssh-add ~/.ssh/^(*.pub|known_hosts)"
