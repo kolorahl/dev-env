@@ -7,6 +7,9 @@ brew update
 echo "Installing git"
 brew install git
 
+echo "Installing emacs"
+brew install emacs
+
 echo "Install rbenv"
 brew install rbenv
 brew install ruby-build

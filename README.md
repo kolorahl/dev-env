@@ -26,6 +26,12 @@ Obviously one of the main tools downloaded is [git](https://git-scm.com/). Many
 other tools and features to be installed, not to mention 99+% of my development,
 use git.
 
+## emacs ##
+
+My personal favorite editor, although I do like using it with the addition of
+"Evil Mode", which adds vim bindings when in Evil Mode. I like the ease of
+navigating a file and vim's search-and-replace functionality.
+
 ## rbenv ##
 
 Much of my development, and a significant number of tools I use, require Ruby.
